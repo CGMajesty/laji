@@ -1,0 +1,35 @@
+{
+  "name": "ithub",
+  "version": "1.0.0",
+  "description": "一个简单的问答社区",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "nodemon app.js",
+    "push": "git add . && git commit && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goddlts/ithub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goddlts/ithub/issues"
+  },
+  "homepage": "https://github.com/goddlts/ithub#readme",
+  "dependencies": {
+    "art-template": "^4.12.2",
+    "body-parser": "^1.18.3",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.3",
+    "express-art-template": "^1.0.1",
+    "express-mysql-session": "^2.0.0",
+    "express-session": "^1.15.6",
+    "jquery": "^3.3.1",
+    "md5": "^2.2.1",
+    "moment": "^2.22.2",
+    "mysql": "^2.15.0"
+  }
+}
